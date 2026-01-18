@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lusitana:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="box-1">
+            <a href="index.html">
+                <img src="logo.png" alt="">
+            </a>
+            <div class="box-1-1">
+                <h1>Sir Aseef</h1>
+                <h2>Student Circle -</h2>
+            </div>
+        </div>
+
+        <div class="box-2" id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="serv.html">Services</a>
+            <a href="cdc.html">C D C</a>
+        </div>
+
+        <div class="box-3">
+            <button>See More</button>
+        </div>
+
+        <div class="menu-icon" id="menuBtn">
+            ☰
+        </div>
+    </header>
+    <section class="contact-hero">
+        <h2>Contact Sir Aseef Student Circle</h2>
+        <p>
+            Contact us for admissions, courses, or guidance. Our team is always ready to assist you.
+        </p>
+    </section>
+
+    <section class="contact-info">
+        <div class="info-card">
+            <h4>📞 Contact Details</h4>
+            <p><strong>Phone:</strong> 03172718596</p>
+            <p id="para"><strong>Email:</strong> siraseefstudentscircle@gmail.com</p>
+            <p><strong>WhatsApp:</strong> Available</p>
+        </div>
+
+        <div class="info-card">
+            <h4>⏰ Office Timing</h4>
+            <p>Monday – Saturday</p>
+            <p>3:00 PM – 9:00 PM</p>
+            <p>Sunday Closed</p>
+        </div>
+
+        <div class="info-card">
+            <h4>📍 Location</h4>
+            <p>
+                Nazmabad no 1 Main Road,<br>
+                XYZ Area, Karachi
+            </p>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="form-box">
+            <h3>Admission Inquiry</h3>
+            <p>
+                Fill out the form below, and we will contact you shortly.
+            </p>
+
+            <form>
+                <input type="text" placeholder="Student Name" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="text" placeholder="Class / Course">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact-cta">
+        <h3>Visit Our Center Today</h3>
+        <p>
+            Strong concepts, quality education aur professional guidance
+            ke liye Sir Aseef Student Circle join karein.
+        </p>
+        <a href="https://wa.me/923172718596">WhatsApp Us</a>
+    </section>
+
+
+    <script>
+        const btn = document.getElementById("menuBtn");
+        const menu = document.getElementById("navMenu");
+        btn.onclick = () => menu.classList.toggle("active");
+
+    </script>
+</body>
+
+</html>
